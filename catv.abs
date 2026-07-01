@@ -1,0 +1,26 @@
+##AblyBackup1##
+
+[catv]
+Checked=1
+Src=D:\ME_ŠJ”­\catv\ŽR—œCATV
+Dst=C:\My Documents\ŽR—œcatv
+Update=2002/08/25 15:18:12
+Filter=
+Mirror=0
+SubDir=1
+AllCopy=0
+
+SrcLogin=0
+SrcUser=
+SrcPass=
+DstLogin=0
+DstUser=
+DstPass=
+SrcLogoff=0
+DstLogoff=0
+
+SrcVolumeCheck=0
+SrcVolumeName=
+DstVolumeCheck=0
+DstVolumeName=
+

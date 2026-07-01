@@ -1,0 +1,35 @@
+*** 勝沼町CATV組合*************************************************　
+
+koushin.mdb  soukatsu(0:read 1:write , header,t_no,open,close)
+
+*** header= renban
+
+t1= kojinid
+t2= shuruiid
+t3= bankid
+t4= keiyakuid
+t5= sonotaid
+t6= keiyaku2id
+t7= bankkiroku
+t8= koushin
+t9= nhkid
+t10= nhkkoushin
+t11= stbid
+t12= cellid
+t13=
+t14=
+t15= shousaiid
+
+*** header=startup
+
+t1= date
+t2= password
+t3= backup path 
+t4= shell path
+t5= Version no
+t6= voip seikyuid
+t7= voip shousaiid
+t8= voip voip_m id
+t9= voip 
+t10= ppv ppvid
+t11=更新日

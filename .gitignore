@@ -1,0 +1,45 @@
+# コンパイル済みバイナリ
+*.exe
+*.OBJ
+
+# Access データベース（顧客データ含む）
+*.mdb
+*.ldb
+
+# VB6 一時・ログファイル
+*.log
+*.LOG
+*.TMP
+
+# Visual SourceSafe メタデータ
+*.SCC
+MSSCCPRJ.SCC
+
+# Office バイナリ
+*.xls
+*.xlsx
+*.doc
+*.docx
+
+# 大容量データファイル
+*.dat
+*.DAT
+
+# 顧客データディレクトリ
+/勝沼町CATV組合/
+/ver/勝沼町CATV組合/
+/mente/勝沼町CATV組合/
+
+# 配布ディレクトリ
+/配布/
+
+# センシティブなデータファイル（顧客・口座情報の可能性）
+*.csv
+COMB.TXT
+kouza_*.txt
+outfile.txt
+【再送】*.txt
+fd_no_koushin.txt
+ch_20040514_fdd.txt
+請求入金_*.txt
+ja_data_go.txt

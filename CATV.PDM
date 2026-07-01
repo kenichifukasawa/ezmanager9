@@ -1,0 +1,849 @@
+[Root]
+Most Recent Package=ezmanager7
+
+
+[Package|catv|catv]
+Icon1=catv.exe
+Title1=catv
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|catv|EZ　Manager]
+Icon1=catv.exe
+Title1=EZ　Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|catv|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=\\PCSERVER\開発\配布\EZ　Manager\2.50
+
+[Package|catv|Configure DAO ISAMs]
+Applicable=No
+
+[Package|catv|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|catv|Files Found]
+catv.ini=\\PCSERVER\開発\sp3\catv\catv.ini
+
+[Package|catv|Files Released]
+
+[Package|catv|Missing Dependency Information]
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=
+
+[Package|catv|Out-of-Date Dependency Information]
+
+[Package|catv|Files Added]
+catv.ini=
+catv.mdb=
+koushin.mdb=
+
+[Package|catv|Files Removed]
+
+[Package|catv|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6JP.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWSTR10.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWDAT10.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD3X40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTES40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\FLXGDJP.DLL=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTJP.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCC2JP.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCMCJP.DLL=Yes
+C:\Program Files\Imocx60\Controls\Text60.ocx=Yes
+C:\Program Files\Imocx60\Controls\ImBase6.dll=Yes
+C:\Program Files\Imocx60\Controls\imshare6.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=Yes
+\\PCSERVER\開発\sp3\catv\catv.exe=Yes
+\\PCSERVER\開発\sp3\catv\catv.ini=Yes
+\\PCSERVER\開発\sp3\catv\catv.mdb=Yes
+\\PCSERVER\開発\sp3\catv\koushin.mdb=Yes
+
+[Package|catv|Configure Registry Files]
+Applicable=No
+
+[Package|catv|Configure Remote Servers]
+Applicable=No
+
+[Package|catv|Install Locations]
+F:\catv\catv.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6JP.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWSTR10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWDAT10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD3X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTES40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\FLXGDJP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTJP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCC2JP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCMCJP.DLL=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\Text60.ocx=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\ImBase6.dll=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\imshare6.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ZoonFIO.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\catv\catv.ini=$(AppPath)
+F:\catv\catv.mdb=$(AppPath)
+F:\catv\koushin.mdb=$(AppPath)
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=$(WinSysPath)
+\\PCSERVER\開発\sp3\catv\catv.exe=$(AppPath)
+\\PCSERVER\開発\sp3\catv\catv.ini=$(AppPath)
+\\PCSERVER\開発\sp3\catv\catv.mdb=$(AppPath)
+\\PCSERVER\開発\sp3\catv\koushin.mdb=$(AppPath)
+
+[Package|catv|Configure Shared Files]
+Applicable=Yes
+F:\catv\catv.exe=No
+F:\catv\catv.ini=No
+F:\catv\catv.mdb=Yes
+F:\catv\koushin.mdb=Yes
+\\PCSERVER\開発\sp3\catv\catv.exe=No
+\\PCSERVER\開発\sp3\catv\catv.ini=No
+\\PCSERVER\開発\sp3\catv\catv.mdb=Yes
+\\PCSERVER\開発\sp3\catv\koushin.mdb=Yes
+
+[Package|catv|Distribution]
+Type=single
+Size=
+Title=catv管理システム「EZ　Manager」
+
+[Package|catv|IconGroups]
+Group0=catv管理システム「EZ　Manager」
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|catv|catv管理システム「EZ　Manager」]
+Icon1=catv.exe
+Title1=catv管理システム「EZ　Manager」
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|catv|Package]
+PackageFolder=\\PCSERVER\開発\配布\EZ　Manager\2.50
+ProjectFolder=\\PCSERVER\開発\sp3\catv
+ServerSideCab=
+File1=\\PCSERVER\開発\配布\EZ　Manager\2.50\setup.exe
+File2=\\PCSERVER\開発\配布\EZ　Manager\2.50\Setup.Lst
+File3=\\PCSERVER\開発\配布\EZ　Manager\2.50\catv.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|sub_catv_1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\ME_開発\catv\haifu
+
+[Package|sub_catv_1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|sub_catv_1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|sub_catv_1|Files Found]
+
+[Package|sub_catv_1|Files Released]
+
+[Package|sub_catv_1|Missing Dependency Information]
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=
+
+[Package|sub_catv_1|Out-of-Date Dependency Information]
+
+[Package|sub_catv_1|Files Added]
+
+[Package|sub_catv_1|Files Removed]
+
+[Package|sub_catv_1|Files In Project]
+D:\ME_開発\catv\CATV.EXE=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6JP.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWSTR10.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWDAT10.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD3X40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL40.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTES40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\FLXGDJP.DLL=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTJP.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCC2JP.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCMCJP.DLL=Yes
+C:\Program Files\Imocx60\Controls\Text60.ocx=Yes
+C:\Program Files\Imocx60\Controls\ImBase6.dll=Yes
+C:\Program Files\Imocx60\Controls\imshare6.dll=Yes
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=Yes
+C:\Program Files\VSFLEX7\Control\Vsflex7D.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|sub_catv_1|Configure Registry Files]
+Applicable=No
+
+[Package|sub_catv_1|Configure Remote Servers]
+Applicable=No
+
+[Package|sub_catv_1|Install Locations]
+D:\ME_開発\catv\CATV.EXE=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6JP.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWSTR10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWDAT10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD3X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTES40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\FLXGDJP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTJP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCC2JP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCMCJP.DLL=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\Text60.ocx=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\ImBase6.dll=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\imshare6.dll=$(WinSysPath)
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=$(WinSysPath)
+C:\Program Files\VSFLEX7\Control\Vsflex7D.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|sub_catv_1|Configure Shared Files]
+Applicable=Yes
+D:\ME_開発\catv\CATV.EXE=No
+
+[Package|sub_catv_1|Distribution]
+Type=single
+Size=
+Title=catv
+
+[Package|sub_catv_1|Package]
+PackageFolder=D:\ME_開発\catv\haifu
+ProjectFolder=D:\ME_開発\catv
+ServerSideCab=
+File1=D:\ME_開発\catv\haifu\setup.exe
+File2=D:\ME_開発\catv\haifu\Setup.Lst
+File3=D:\ME_開発\catv\haifu\catv.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|20041024_catv|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\catv\20041024
+
+[Package|20041024_catv|Configure DAO ISAMs]
+Applicable=No
+
+[Package|20041024_catv|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|20041024_catv|Files Found]
+
+[Package|20041024_catv|Files Released]
+
+[Package|20041024_catv|Missing Dependency Information]
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=
+
+[Package|20041024_catv|Out-of-Date Dependency Information]
+
+[Package|20041024_catv|Files Added]
+
+[Package|20041024_catv|Files Removed]
+
+[Package|20041024_catv|Files In Project]
+D:\catv\CATV.EXE=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6JP.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\FLXGDJP.DLL=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\TABCTJP.DLL=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSCC2JP.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCJP.DLL=Yes
+C:\Program Files\Imocx60\Controls\Text60.ocx=Yes
+C:\Program Files\Imocx60\Controls\ImBase6.dll=Yes
+C:\Program Files\Imocx60\Controls\imshare6.dll=Yes
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=Yes
+C:\Program Files\VSFLEX7\Control\Vsflex7D.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|20041024_catv|Configure Registry Files]
+Applicable=No
+
+[Package|20041024_catv|Configure Remote Servers]
+Applicable=No
+
+[Package|20041024_catv|Install Locations]
+D:\catv\CATV.EXE=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6JP.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\FLXGDJP.DLL=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTJP.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2JP.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCJP.DLL=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\Text60.ocx=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\ImBase6.dll=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\imshare6.dll=$(WinSysPath)
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=$(WinSysPath)
+C:\Program Files\VSFLEX7\Control\Vsflex7D.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|20041024_catv|Configure Shared Files]
+Applicable=Yes
+D:\catv\CATV.EXE=No
+
+[Package|20041024_catv|Distribution]
+Type=single
+Size=
+Title=catv
+
+[Package|20041024_catv|IconGroups]
+Group0=catv
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|20041024_catv|catv]
+Icon1=catv.exe
+Title1=catv
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|20041024_catv|Package]
+PackageFolder=D:\catv\20041024
+ProjectFolder=D:\catv
+ServerSideCab=
+File1=D:\catv\20041024\setup.exe
+File2=D:\catv\20041024\Setup.Lst
+File3=D:\catv\20041024\catv.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|20060224_catv|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\開発XP\ezmanager3\配布\2.6.0
+
+[Package|20060224_catv|Configure DAO ISAMs]
+Applicable=No
+
+[Package|20060224_catv|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|20060224_catv|Files Found]
+ezmanager_ment.exe=C:\開発XP\ezmanager3\mente\ezmanager_ment.exe
+catv.mdb=C:\開発XP\ezmanager3\mdb\def\catv.mdb
+
+[Package|20060224_catv|Files Released]
+
+[Package|20060224_catv|Missing Dependency Information]
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=
+C:\開発\ezmanager\ezmanager_ment.exe=
+C:\開発XP\ezmanager3\mente\ezmanager_ment.exe=
+C:\開発XP\ezmanager3\ver\ezmanager_ver.exe=
+
+[Package|20060224_catv|Out-of-Date Dependency Information]
+
+[Package|20060224_catv|Files Added]
+ezmanager_ment.exe=
+catv.mdb=
+koushin.mdb=
+nhk.mdb=
+ppv.mdb=
+voip.mdb=
+C:\開発XP\ezmanager3\ver\ezmanager_ver.exe=
+
+[Package|20060224_catv|Files Removed]
+c:\開発\ezmanager\勝沼catv\catv.mdb=
+c:\開発\ezmanager\勝沼catv\koushin.mdb=
+c:\開発\ezmanager\勝沼catv\nhk.mdb=
+c:\開発\ezmanager\勝沼catv\ppv.mdb=
+c:\開発\ezmanager\勝沼catv\voip.mdb=
+c:\開発xp\ezmanager3\mdb\def\catv.mdb=
+c:\開発xp\ezmanager3\mdb\def\koushin.mdb=
+c:\開発xp\ezmanager3\mdb\def\nhk.mdb=
+c:\開発xp\ezmanager3\mdb\def\ppv.mdb=
+c:\開発xp\ezmanager3\mdb\def\voip.mdb=
+
+[Package|20060224_catv|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\Program Files\Imocx60\Controls\Text60.ocx=Yes
+C:\Program Files\Imocx60\Controls\ImBase6.dll=Yes
+C:\Program Files\Imocx60\Controls\imshare6.dll=Yes
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=Yes
+C:\Program Files\VSFLEX7\Control\Vsflex7D.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\AReport20\BarCode\BarCode.ocx=Yes
+C:\開発XP\ezmanager3\catv.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\VB6JP.DLL=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Office\OFFICE11\MSACC.OLB=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDJP.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\TABCTJP.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2JP.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCJP.DLL=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\INETJP.DLL=Yes
+C:\WINDOWS\system32\setup.exe=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\開発XP\ezmanager3\mente\ezmanager_ment.exe=Yes
+C:\開発XP\ezmanager3\mdb\def\catv.mdb=No
+C:\開発XP\ezmanager3\mdb\def\koushin.mdb=No
+C:\開発XP\ezmanager3\mdb\def\nhk.mdb=No
+C:\開発XP\ezmanager3\mdb\def\ppv.mdb=No
+C:\開発XP\ezmanager3\mdb\def\voip.mdb=No
+C:\開発XP\ezmanager3\ver\ezmanager_ver.exe=Yes
+
+[Package|20060224_catv|Configure Registry Files]
+Applicable=No
+
+[Package|20060224_catv|Configure Remote Servers]
+Applicable=No
+
+[Package|20060224_catv|Install Locations]
+D:\catv\CATV.EXE=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6JP.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\FLXGDJP.DLL=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTJP.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2JP.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCJP.DLL=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\Text60.ocx=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\ImBase6.dll=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\imshare6.dll=$(WinSysPath)
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=$(WinSysPath)
+C:\Program Files\VSFLEX7\Control\Vsflex7D.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\開発\ezmanager\catv.exe=$(AppPath)
+C:\Program Files\AReport20\BarCode\BarCode.ocx=$(WinSysPath)
+C:\WINNT\system32\MSINET.OCX=$(WinSysPath)
+C:\WINNT\system32\INETJP.DLL=$(WinSysPath)
+C:\開発\ezmanager\ezmanager_ment.exe=$(AppPath)
+C:\開発\ezmanager\勝沼CATV\catv.mdb=$(AppPath)
+C:\開発\ezmanager\勝沼CATV\koushin.mdb=$(AppPath)
+C:\開発\ezmanager\勝沼CATV\nhk.mdb=$(AppPath)
+C:\開発\ezmanager\勝沼CATV\ppv.mdb=$(AppPath)
+C:\開発\ezmanager\勝沼CATV\voip.mdb=$(AppPath)
+C:\開発XP\ezmanager3\catv.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6JP.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\OFFICE11\MSACC.OLB=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDJP.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTJP.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2JP.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCJP.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\INETJP.DLL=$(WinSysPath)
+C:\WINDOWS\system32\setup.exe=$(AppPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\開発XP\ezmanager3\mente\ezmanager_ment.exe=$(AppPath)
+C:\開発XP\ezmanager3\mdb\def\catv.mdb=$(AppPath)
+C:\開発XP\ezmanager3\mdb\def\koushin.mdb=$(AppPath)
+C:\開発XP\ezmanager3\mdb\def\nhk.mdb=$(AppPath)
+C:\開発XP\ezmanager3\mdb\def\ppv.mdb=$(AppPath)
+C:\開発XP\ezmanager3\mdb\def\voip.mdb=$(AppPath)
+C:\開発XP\ezmanager3\ver\ezmanager_ver.exe=$(AppPath)
+
+[Package|20060224_catv|Configure Shared Files]
+Applicable=Yes
+D:\catv\CATV.EXE=No
+C:\開発\ezmanager\catv.exe=No
+C:\開発\ezmanager\ezmanager_ment.exe=No
+C:\開発XP\ezmanager3\catv.exe=No
+C:\開発XP\ezmanager3\mente\ezmanager_ment.exe=No
+C:\開発XP\ezmanager3\mdb\def\catv.mdb=Yes
+C:\開発XP\ezmanager3\mdb\def\koushin.mdb=Yes
+C:\開発XP\ezmanager3\mdb\def\nhk.mdb=Yes
+C:\開発XP\ezmanager3\mdb\def\ppv.mdb=Yes
+C:\開発XP\ezmanager3\mdb\def\voip.mdb=Yes
+C:\開発XP\ezmanager3\ver\ezmanager_ver.exe=No
+
+[Package|20060224_catv|Distribution]
+Type=single
+Size=
+Title=ＥＺ　Ｍａｎａｇｅｒ
+
+[Package|20060224_catv|IconGroups]
+Group0=catv
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|20060224_catv|catv]
+Icon1=catv.exe
+Title1=catv
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|20060224_catv|Package]
+PackageFolder=c:\開発XP\ezmanager3\配布\2.6.0
+ProjectFolder=C:\開発XP\ezmanager3
+ServerSideCab=
+File1=c:\開発XP\ezmanager3\配布\2.6.0\setup.exe
+File2=c:\開発XP\ezmanager3\配布\2.6.0\Setup.Lst
+File3=c:\開発XP\ezmanager3\配布\2.6.0\catv.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|ezmanager7|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\配布\7.15
+
+[Package|ezmanager7|Configure DAO ISAMs]
+Applicable=No
+
+[Package|ezmanager7|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ezmanager7|Files Found]
+
+[Package|ezmanager7|Files Released]
+
+[Package|ezmanager7|Missing Dependency Information]
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=
+C:\Program Files\Microsoft Office\OFFICE11\MSACC.OLB=
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\ver\ezmanager_ver.exe=
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\mente\ezmanager_ment.exe=
+
+[Package|ezmanager7|Out-of-Date Dependency Information]
+
+[Package|ezmanager7|Files Added]
+c:\documents and settings\ken\デスクトップ\data\ezmanager7\ver\ezmanager_ver.exe=
+c:\documents and settings\ken\デスクトップ\data\ezmanager7\mente\ezmanager_ment.exe=
+c:\documents and settings\ken\デスクトップ\data\ezmanager7\settei.mdb=
+
+[Package|ezmanager7|Files Removed]
+
+[Package|ezmanager7|Files In Project]
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\catv.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6JP.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Office\OFFICE11\MSACC.OLB=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDJP.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\TABCTJP.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2JP.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCJP.DLL=Yes
+C:\Program Files\Imocx60\Controls\Text60.ocx=Yes
+C:\Program Files\Imocx60\Controls\ImBase6.dll=Yes
+C:\Program Files\Imocx60\Controls\imshare6.dll=Yes
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=Yes
+C:\Program Files\VSFLEX7\Control\Vsflex7D.ocx=Yes
+C:\Program Files\AReport20\BarCode\BarCode.ocx=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\INETJP.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\ver\ezmanager_ver.exe=Yes
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\mente\ezmanager_ment.exe=Yes
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\settei.mdb=Yes
+
+[Package|ezmanager7|Configure Registry Files]
+Applicable=No
+
+[Package|ezmanager7|Configure Remote Servers]
+Applicable=No
+
+[Package|ezmanager7|Install Locations]
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\catv.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6JP.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\OFFICE11\MSACC.OLB=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDJP.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTJP.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2JP.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCJP.DLL=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\Text60.ocx=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\ImBase6.dll=$(WinSysPath)
+C:\Program Files\Imocx60\Controls\imshare6.dll=$(WinSysPath)
+C:\Program Files\ZoonFIO\ZoonFIO.ocx=$(WinSysPath)
+C:\Program Files\VSFLEX7\Control\Vsflex7D.ocx=$(WinSysPath)
+C:\Program Files\AReport20\BarCode\BarCode.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\INETJP.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\ver\ezmanager_ver.exe=$(AppPath)
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\mente\ezmanager_ment.exe=$(AppPath)
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\settei.mdb=$(AppPath)
+
+[Package|ezmanager7|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\catv.exe=No
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\ver\ezmanager_ver.exe=No
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\mente\ezmanager_ment.exe=No
+C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\settei.mdb=No
+
+[Package|ezmanager7|Distribution]
+Type=single
+Size=
+Title=EZManager 7
+
+[Package|ezmanager7|IconGroups]
+Group0=EZManager
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|ezmanager7|EZManager]
+Icon1=catv.exe
+Title1=EZManager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|ezmanager7|Package]
+PackageFolder=C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\配布\7.15
+ProjectFolder=C:\Documents and Settings\ken\デスクトップ\data\ezmanager7
+ServerSideCab=
+File1=C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\配布\7.15\setup.exe
+File2=C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\配布\7.15\Setup.Lst
+File3=C:\Documents and Settings\ken\デスクトップ\data\ezmanager7\配布\7.15\catv.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
