@@ -13784,7 +13784,12 @@ Else
 End If
 
 
+'PC名＋バージョン情報を記録
+Dim s_pcname As String, s_appver As String
+s_pcname = Environ("COMPUTERNAME")
+s_appver = App.Major & "." & App.Minor & "." & App.Revision
 
+err_write2 s_pcname & "," & s_appver, sopa & "version_jouhou.txt"
 
 
 

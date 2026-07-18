@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(powershell *)"
+      "Bash(powershell *)",
+      "PowerShell(cd \"C:\\\\Users\\\\ken\\\\Desktop\\\\xp_data\\\\ezmanager9\"; git status --short | Where-Object { $_ -match \"^[AMDC]\" } | Select-Object -First 20)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(ssh-keygen *)",
+      "PowerShell(Get-Content *)",
+      "Bash(git status *)",
+      "Bash(awk 'NR==13667,NR==13825{print NR\": \"$0}' Module1.bas)",
+      "Bash(git add *)"
     ]
   }
 }
